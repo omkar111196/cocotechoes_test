@@ -42,6 +42,9 @@ def main():
 
     average_days = total_days / total_books if total_books > 0 else 0
     print(f"Average number of days each member keeps the book: {average_days:.2f}")
+    print("\nList of Members:")
+    for member in members:
+        print(f"{member.name} - Number of Books: {len(member.books)}")
 
 if __name__ == "__main__":
     main()
