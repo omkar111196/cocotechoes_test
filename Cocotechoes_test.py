@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import random
 from datetime import datetime, timedelta
 class Book:
@@ -51,10 +45,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
